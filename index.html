@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فهرس مقررات دبلوم هندسة البرمجيات</title>
+    <style>
+        body {
+            font-family: 'Tahoma', 'Arial', sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1300px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 25px 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0056b3; /* Cairo Uni Blue */
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #007bff; /* Lighter Blue */
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            text-align: right;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px 12px;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #e9ecef;
+            font-weight: bold;
+            color: #495057;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+
+        tbody tr:hover {
+            background-color: #e2e6ea;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Adjust column widths for Diploma courses table */
+        th:nth-child(1), td:nth-child(1) { width: 10%; } /* Course Code */
+        th:nth-child(2), td:nth-child(2) { width: 45%; } /* Course Title */
+        th:nth-child(3), td:nth-child(3) { width: 15%; text-align: center; } /* C.H */
+        th:nth-child(4), td:nth-child(4) { width: 15%; text-align: center; } /* Semester */
+        th:nth-child(5), td:nth-child(5) { width: 15%; } /* Notes / Link */
+
+        ul {
+            list-style-type: disc;
+            padding-right: 20px;
+            padding-left: 0;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        li {
+             margin-bottom: 5px;
+             text-align: right;
+        }
+
+        strong {
+            color: #28a745; /* Green */
+        }
+
+        .course-desc {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>فهرس المقررات</h1>
+        <p class="course-desc">
+            هذه الصفحة توفر قائمة بمقررات دبلوم هندسة البرمجيات (تمهيدي الماجستير) بجامعة القاهرة، مع روابط للمواد المتاحة.
+        </p>
+
+        <h2>مقررات دبلوم هندسة البرمجيات</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>رمز المقرر</th>
+                    <th>اسم المقرر</th>
+                    <th>الساعات المعتمدة</th>
+                    <th>الفصل الدراسي</th>
+                    <th>ملاحظات / رابط</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SE101</td>
+                    <td>Computer Systems Principles and Programming<br>مبادىء نظم الحاسب والبرمجه</td>
+                    <td>3</td>
+                    <td>الأول</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE102</td>
+                    <td>Relational Database Systems<br>نظم قواعد البيانات العلاقية</td>
+                    <td>3</td>
+                    <td>الأول</td>
+                    <td><a href="https://github.com/astral-fate/SE102-Relational-Database-Systems" target="_blank">مستودع المقرر</a></td>
+                </tr>
+                <tr>
+                    <td>SE103</td>
+                    <td>The Software Development Process<br>عملية تطوير البرمجيات</td>
+                    <td>3</td>
+                    <td>الأول</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE104</td>
+                    <td>The User Interface Design<br>تصميم بينية المستخدم</td>
+                    <td>3</td>
+                    <td>الأول</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE105</td>
+                    <td>Object-Oriented Software Development using UML<br>تطوير البرمجيات شيئية التوجه باستخدام UML</td>
+                    <td>3</td>
+                    <td>الأول</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE106</td>
+                    <td>Software Project Management<br>إدارة مشروعات البرمجيات</td>
+                    <td>3</td>
+                    <td>الثاني</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE107</td>
+                    <td>Web Design and Architecture<br>تصميم مواقع الويب</td>
+                    <td>3</td>
+                    <td>الثاني</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE108</td> <!-- Assuming '8SE10' was a typo for 'SE108' -->
+                    <td>Agile Software Development<br>التطوير الرشيق للبرمجيات</td>
+                    <td>3</td>
+                    <td>الثاني</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+                <tr>
+                    <td>SE109</td>
+                    <td>Programming in the Large<br>البرمجه في الأنظمة الكبيرة</td>
+                    <td>3</td>
+                    <td>الثاني</td>
+                    <td><a href="https://github.com/astral-fate/SE109-Programming-in-the-Large-2025" target="_blank">مستودع المقرر</a></td>
+                </tr>
+                <tr>
+                    <td>SE110</td>
+                    <td>Project<br>المشروع</td>
+                    <td>3</td>
+                    <td>الثاني</td>
+                    <td>لا يوجد رابط</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
